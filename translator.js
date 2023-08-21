@@ -6,6 +6,7 @@ function preencherFormulario(traduSaida){
 
 async function traducao(){
     var textToTranslate = input.value; 
+    //var textToTranslate = "hi"; 
     const apiUrl = `https://api.funtranslations.com/translate/minion.json?text=${textToTranslate}`; 
 
 
